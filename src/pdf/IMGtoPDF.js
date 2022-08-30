@@ -1,5 +1,5 @@
 import PDFDocument from "pdfkit/js/pdfkit.standalone";
-import blobStream from "blob-stream/.js";
+import blobStream from "../../lib/blob-stream";
 import {getImageObject, setCompressedFileFields} from "../util/FileUtils";
 import {blobToBase64} from "../util/Base64Utils";
 

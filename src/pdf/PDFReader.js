@@ -1,5 +1,5 @@
-import * as pdfjsLib from "pdfjs-dist";
-import PDFJSWorker from "pdfjs-dist/build/pdf.worker.entry";
+import * as pdfjsLib from "pdfjs-dist/legacy/build/pdf";
+import PDFJSWorker from "pdfjs-dist/legacy/build/pdf.worker.entry";
 
 pdfjsLib.GlobalWorkerOptions.workerSrc = PDFJSWorker;
 

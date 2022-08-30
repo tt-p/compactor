@@ -1,6 +1,6 @@
 {
   "name": "compactor",
-  "version": "0.0.1",
+  "version": "0.0.13",
   "description": "Compress pdf and img on browser",
   "main": "index.js",
   "homepage": "https://github.com/tt-p/compactor",
@@ -14,7 +14,6 @@
     "url": "https://github.com/tt-p/compactor.git"
   },
   "dependencies": {
-    "blob-stream": "^0.1.3",
     "pdfjs-dist": "^2.15.349",
     "pdfkit": "^0.13.0"
   },

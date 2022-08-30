@@ -1,1 +1,3 @@
-module.exports = require("./lib/FileCompress");
+"use strict";
+
+module.exports = require("./src/FileCompress");

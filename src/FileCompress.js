@@ -1,7 +1,7 @@
 import {compressPDF} from "./pdf/PDFCompress";
 import {compressIMG} from "./img/IMGCompress";
 
-export const compress = async (inputFile, callbackFunc, options) => {
+export const compressFile = async (inputFile, callbackFunc, options) => {
 
     const mimeType = inputFile.mimeType;
 

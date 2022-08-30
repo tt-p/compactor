@@ -1,4 +1,7 @@
-import {createCanvasContext, createCanvasFromViewport} from "../util/FileUtils";
+import {
+    createCanvasContext, 
+    createCanvasFromViewport
+} from "../util/FileUtils";
 
 const convertPDFtoIMG = (pdfDocumentProxy, options) => {
     return renderAllPages(pdfDocumentProxy, options);
