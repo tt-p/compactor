@@ -2,6 +2,8 @@
 
 Compress pdf and img on browser.
 
+`npm i compactor` or `yarn add compactor`
+
 Demo page: [Demo Page](https://tt-p.github.io/compactor-demo/)
 
 Example project with react: [Example Project](https://github.com/tt-p/compactor-demo)
@@ -44,3 +46,7 @@ import {compressFile} from "compactor";
 
 await compressFile(inputFile, callbackFunc, options);
 ```
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
